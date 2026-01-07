@@ -19,5 +19,10 @@ A live visualization of emotions detected in news article from around the world,
 # Using the application
 After some time loading, the visualization will appear. Each cluster of colored articles represents the emotions detected in a recently published news article. Depending on performance and frequency of news articles at the time of running, the visualization will usually have between a two and five minute delay. A button in the top right corner toggles the UI, which features a legend for the colors, and basic controls for adjusting the visualization.
 
+# License
+This project is available under the MIT License. See the (LICENSE)[LICENSE] file for details.
+
 # Acknowledgements
 This project was developed as part of the course "Computational Design Laboratory" at the University of Coimbra. Thank you to the professors for their advice and supervision, and thank you to the university for my Erasmus.
+
+This project uses the [newsapi.ai](https://newsapi.ai/) API for gathering live news and Hartmann's [Emotion English DistilRoBERTa-base](https://huggingface.co/j-hartmann/emotion-english-distilroberta-base) for emotion detection. Thank you to the respective developers of these tools.
